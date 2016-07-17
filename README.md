@@ -9,3 +9,11 @@ If your script makes a lot of changes to a page, you end up with a lot of mutati
 ## New mutation observers
 
 Mutation observers are designed to wait until a script has finished its task before reacting, then report the changes as a batch (rather than one at a time). You can also specify the type of changes to the DOM that you want them to react to. But at the time of writing, the browser support was not widespread enough to use them on public websites.
+
+## How to run the app locally?
+
+* In your terminal type:
+```
+git clone https://github.com/bostonhuman/mutation-events
+```
+* Open `mutation.html` to run the app.
